@@ -1,0 +1,14 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: ingress-layer7
+spec:
+  rules:
+  - host: betulslife.com
+    http:
+      paths:
+      - path: /  
+        backend:
+          serviceName: wordpress
+          servicePort: 80
+         
