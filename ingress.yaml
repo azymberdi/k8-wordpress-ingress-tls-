@@ -4,7 +4,7 @@ metadata:
   name: ingress-layer7
 spec:
   rules:
-  - host: betulslife.com
+  - host: azymberdi.com
     http:
       paths:
       - path: /  
