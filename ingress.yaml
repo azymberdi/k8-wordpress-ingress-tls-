@@ -4,7 +4,7 @@ metadata:
   name: ingress-layer7
 spec:
   rules:
-  - host: azymberdi.com
+  - host: turkmendevops.com
     http:
       paths:
       - path: /  
